@@ -2,13 +2,13 @@
     <div>
     <h1>Todos</h1>
     <p style="margin-bottom: 0">You can add a new Todo by filling out the form and clicking on the submit button.  </p> 
-    <p style="margin-bottom: 0">Click on the Todo to go to a single Todo item view.</p> 
+    <p style="margin-bottom: 0">Click on the Todo to go to a single Todo item.</p> 
     <p>Green means Done, Red means Not Done.</p>
     <TodoList :key="todoKey" />
     <div class="form">
         <h1>Add Todo</h1>
             <input type="text" placeholder="todo" v-model="title">
-            <input type="text" placeholder="date" v-model="date">
+            <input type="text" placeholder="XXXX-XX-XXTXX:XX:XX" v-model="date">
             <div>   
             <label for="done">Done</label>
             <input type="radio" id="done" :value="true"  v-model="done" >

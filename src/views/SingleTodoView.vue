@@ -3,7 +3,7 @@
         <h1>Todo</h1>
         <div class="form">
             <input type="text" placeholder="title" v-model="title">
-            <input type="text" placeholder="date" v-model="date">
+            <input type="text" placeholder="XXXX-XX-XXTXX:XX:XX" v-model="date">
             <div>
             <label for="done" >Done</label>
             <input  type="radio" id="done" :value="true" v-model="done">
